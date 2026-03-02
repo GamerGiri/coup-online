@@ -13,3 +13,4 @@ cypress/videos/*
 
 # misc
 .DS_Store
+.env
