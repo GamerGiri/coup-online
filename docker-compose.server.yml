@@ -21,6 +21,8 @@ services:
     depends_on:
       redis:
         condition: service_healthy
+    labels:
+      - com.centurylinklabs.watchtower.enable=true
 
   watchtower:
     image: containrrr/watchtower:latest
@@ -28,9 +30,9 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${HOME}/.docker/config.json:/config.json
-    command: --interval 300 --cleanup coup-online-server-1
+    command: --interval 180 --cleanup --label-enable
     environment:
-      - WATCHTOWER_POLL_INTERVAL=300
+      - WATCHTOWER_POLL_INTERVAL=180
       - DOCKER_API_VERSION=1.44
 
 volumes:
