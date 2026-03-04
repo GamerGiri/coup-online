@@ -31,6 +31,7 @@ services:
     command: --interval 300 --cleanup
     environment:
       - WATCHTOWER_POLL_INTERVAL=300
+      - DOCKER_API_VERSION=1.44
 
 volumes:
   redis-data:

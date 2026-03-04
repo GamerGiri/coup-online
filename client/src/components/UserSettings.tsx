@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, Grid, IconButton, Switch, Tooltip, Typography, useTheme } from "@mui/material"
-import { CancelOutlined, CheckCircle, Feedback, Settings } from "@mui/icons-material"
+import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, Grid, IconButton, Switch, Typography, useTheme } from "@mui/material"
+import { CancelOutlined, CheckCircle, Settings } from "@mui/icons-material"
 import { useWebSocketContext } from "../contexts/WebSocketContext"
 import { useSearchParams } from "react-router"
 import LanguageSelector from "./LanguageSelector"
