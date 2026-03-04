@@ -26,7 +26,7 @@ interface UserSettingsContextProviderProps {
 
 export function UserSettingsContextProvider({ children }: Readonly<UserSettingsContextProviderProps>) {
   const [showBackgroundImage, setShowBackgroundImage] = usePersistedState<boolean>(showBackgroundImageStorageKey, true)
-  const [confirmActions, setConfirmActions] = usePersistedState<boolean>(confirmActionsStorageKey, true)
+  const [confirmActions, setConfirmActions] = usePersistedState<boolean>(confirmActionsStorageKey, false)
 
   const contextValue = useMemo<UserSettingsContextType>(
     () => ({

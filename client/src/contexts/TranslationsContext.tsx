@@ -31,7 +31,7 @@ export const TranslationContext = createContext<TranslationContextType>({ t: () 
 
 const availableCodes = new Set<string>(Object.values(AvailableLanguageCode))
 const defaultLanguage = navigator.languages.find((preferred) => availableCodes.has(preferred)) as AvailableLanguageCode
-  ?? AvailableLanguageCode['en-US']
+  ?? AvailableLanguageCode['bn-BD']
 
 export function TranslationContextProvider({ children }: Readonly<{ children: ReactNode }>) {
   const [language, setLanguage] = usePersistedState<AvailableLanguageCode>(activeLanguageStorageKey, defaultLanguage)
