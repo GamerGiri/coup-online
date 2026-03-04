@@ -27,8 +27,8 @@ services:
     restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /root/.docker/config.json:/config.json
-    command: --interval 300 --cleanup
+      - ${HOME}/.docker/config.json:/config.json
+    command: --interval 300 --cleanup coup-online-server-1
     environment:
       - WATCHTOWER_POLL_INTERVAL=300
       - DOCKER_API_VERSION=1.44
