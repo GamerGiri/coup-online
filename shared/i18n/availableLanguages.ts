@@ -1,5 +1,11 @@
 export enum AvailableLanguageCode {
-  
+  "de-DE" = "de-DE",
+  "en-US" = "en-US",
+  "es-MX" = "es-MX",
+  "fr-FR" = "fr-FR",
+  "it-IT" = "it-IT",
+  "pt-BR" = "pt-BR",
+  "hi-IN" = "hi-IN",
   "bn-BD" = "bn-BD",
 }
 
