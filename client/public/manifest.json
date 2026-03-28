@@ -1,7 +1,7 @@
 {
-  "short_name": "Coup Online",
-  "name": "Coup Online - Multiplayer Bluffing Card Game",
-  "description": "Play Coup online for free! A multiplayer card game of deception, deduction, and luck. Bluff, steal, and outsmart your opponents.",
+  "short_name": "Shorojontro",
+  "name": "Shorojontro By Remon",
+  "description": "Play Shorojontro online for free! A multiplayer card game of deception, deduction, and luck. Bluff, steal, and outsmart your opponents.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -39,6 +39,6 @@
   "orientation": "any",
   "theme_color": "#1a237e",
   "background_color": "#ffffff",
-  "lang": "en-US",
+  "lang": "bn-BD",
   "categories": ["games", "entertainment"]
 }
