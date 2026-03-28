@@ -21,10 +21,10 @@ export const availableLanguages: AvailableLanguage[] = [
     flag: "🇩🇪",
     name: "Deutsch",
   },
-  {
-    code: AvailableLanguageCode["en-US"],
-    flag: "🇺🇸",
-    name: "English",
+   {
+    code: AvailableLanguageCode["bn-BD"],
+    flag: "🇧🇩",
+    name: "বাংলা",
   },
   {
     code: AvailableLanguageCode["es-MX"],
@@ -51,9 +51,9 @@ export const availableLanguages: AvailableLanguage[] = [
     flag: "🇮🇳",
     name: "हिन्दी",
   },
-  {
-    code: AvailableLanguageCode["bn-BD"],
-    flag: "🇧🇩",
-    name: "বাংলা",
+   {
+    code: AvailableLanguageCode["en-US"],
+    flag: "🇺🇸",
+    name: "English",
   },
 ]
