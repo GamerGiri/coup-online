@@ -21,6 +21,10 @@ services:
       - EXPRESS_PORT=8008
       - REDIS_CONNECTION_STRING=redis://redis:6379
     depends_on:
+    onlyBuiltDependencies:
+  - esbuild
+  - pre-commit
+  - spawn-sync
       redis:
         condition: service_healthy
 
